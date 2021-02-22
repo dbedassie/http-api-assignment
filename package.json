@@ -1,0 +1,26 @@
+{
+    "name": "http-api-assignment",
+    "version": "1.0.0",
+    "description": "'HTTP API Assignment from IGME-430 with Professor Willoughby at RIT.'",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests Completed.\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dbedassie/http-api-assignment.git"
+    },
+    "author": "'Durrell Bedassie'",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/dbedassie/http-api-assignment/issues"
+    },
+    "homepage": "https://github.com/dbedassie/http-api-assignment#readme",
+    "devDependencies": {
+        "eslint": "^7.20.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-plugin-import": "^2.22.1"
+    }
+}
